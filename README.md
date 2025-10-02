@@ -19,6 +19,9 @@ Este projeto é composto por dois serviços principais:
 
 ---
 
+### Antes de Rodar os comandos abaixo:
+- Rode "docker network create cat-network" Para criar uma rede externa
+
 ## Primeiro: Rode o Collector
 
 ### Pré-requisitos
