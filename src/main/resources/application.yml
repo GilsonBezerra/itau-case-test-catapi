@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: cat-api-collector
+
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8080
+
+thecatapi:
+  url: /breeds
+  content-type: application/json
+  base-url: https://api.thecatapi.com/v1
+
